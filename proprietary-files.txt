@@ -6,6 +6,8 @@ bin/btld
 bin/copsdaemon
 bin/cspsa-server
 bin/geomagneticd6x
+bin/gps.cer
+bin/gpsd
 bin/immvibed
 bin/modem_log_relay
 bin/modem-supervisor
@@ -19,6 +21,7 @@ cameradata/datapattern_420sp.yuv
 cameradata/datapattern_front_420sp.yuv
 etc/AGPS_CA.pem
 etc/calib.dat
+etc/gps.xml
 etc/LVVEFS_tuning_parameters/LVVEFS_Rx_Configuration.txt
 etc/LVVEFS_tuning_parameters/LVVEFS_Tx_Configuration.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF.txt
@@ -103,7 +106,7 @@ lib/hw/audio_policy.montblanc.so
 lib/hw/audio.primary.montblanc.so
 lib/hw/camera.montblanc.so
 lib/hw/copybit.montblanc.so
-lib/hw/gps.montblanc.so
+lib/hw/gps.default.so
 lib/hw/gralloc.montblanc.so
 lib/hw/hwcomposer.montblanc.so
 lib/hw/lights.montblanc.so

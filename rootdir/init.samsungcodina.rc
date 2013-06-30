@@ -641,4 +641,11 @@ service wlandutservice /system/bin/wlandutservice
     group wifi net_raw net_admin system inet
     disabled
     oneshot
+
+service gpsd /system/bin/gpsd -c /system/etc/gps.xml
+    class main
+    user gps
+    group system net_raw
+    ioprio be 0 
+
 # end of wifi
