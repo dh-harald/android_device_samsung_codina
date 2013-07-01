@@ -20,6 +20,9 @@ bin/ta_loader
 cameradata/datapattern_420sp.yuv
 cameradata/datapattern_front_420sp.yuv
 etc/AGPS_CA.pem
+etc/AT/manuf_id.cfg
+etc/AT/model_id.cfg
+etc/AT/system_id.cfg
 etc/calib.dat
 etc/gps.xml
 etc/LVVEFS_tuning_parameters/LVVEFS_Rx_Configuration.txt
