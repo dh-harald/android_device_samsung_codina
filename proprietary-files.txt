@@ -170,7 +170,6 @@ lib/libsomxwmad.so
 lib/libsomxwmv7d.so
 lib/libsomxwmv8d.so
 lib/libspeech_proc_customer_plugin.so
-lib/libstagefrighthw.so
 lib/libste_adm.so
 lib/libste_audio_hwctrl.so
 lib/libstecom.so
