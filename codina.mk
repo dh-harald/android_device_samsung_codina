@@ -9,7 +9,9 @@ PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.usb.default \
     lights.montblanc \
-    com.android.future.usb.accessory
+    com.android.future.usb.accessory \
+    SamsungServiceMode \
+    Torch
 
 # Filesystem management tools
 PRODUCT_PACKAGES += \
