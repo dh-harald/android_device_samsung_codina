@@ -129,6 +129,3 @@ DISABLE_HW_ID_MATCH_CHECK :=true
 BOARD_CHARGING_MODE_BOOTING_LPM := /sys/devices/virtual/power_supply/battery/batt_lp_charging
 BOARD_BATTERY_DEVICE_NAME := "battery"
 BOARD_CHARGER_RES := device/samsung/codina/res/charger
-
-# OMX
-BOARD_USES_PROPRIETARY_OMX := samsung
