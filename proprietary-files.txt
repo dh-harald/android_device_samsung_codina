@@ -105,7 +105,6 @@ lib/drm/libdrmwvmplugin.so
 lib/egl/libEGL_mali.so
 lib/egl/libGLESv1_CM_mali.so
 lib/egl/libGLESv2_mali.so
-lib/hw/audio_policy.montblanc.so
 lib/hw/audio.primary.montblanc.so
 lib/hw/camera.montblanc.so
 lib/hw/copybit.montblanc.so
@@ -115,7 +114,6 @@ lib/hw/hwcomposer.montblanc.so
 lib/hw/lights.montblanc.so
 lib/hw/sensors.montblanc.so
 lib/libacdapi_azi.so
-lib/libasound.so
 lib/libatparser.so
 lib/libaudiopolicy_sec.so
 lib/libbassapp.so
