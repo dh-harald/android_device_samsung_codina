@@ -821,6 +821,9 @@ audio_io_handle_t AudioPolicyManagerBase::getInput(int inputSource,
     case AUDIO_SOURCE_VOICE_CALL:
         channelMask = (AudioSystem::CHANNEL_IN_VOICE_UPLINK | AudioSystem::CHANNEL_IN_VOICE_DNLINK);
         break;
+    case AUDIO_SOURCE_CAMCORDER:
+        channelMask = (AudioSystem::CHANNEL_IN_LEFT | AudioSystem::CHANNEL_IN_RIGHT);
+        break;
     default:
         break;
     }
