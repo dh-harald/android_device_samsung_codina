@@ -79,9 +79,18 @@ Only the three quirks included above are recognized at this point:
     <Decoders>
 
 <!-- Video decoders -->
-        <MediaCodec name="OMX.google.mpeg4.decoder" type="video/mp4v-es" />
+        <MediaCodec name="OMX.ST.VFM.MPEG4Dec" >
+            <Type name="video/mp4v-es" />
+            <Type name="video/3gpp" />
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports" />
+        </MediaCodec>
         <MediaCodec name="OMX.google.h263.decoder" type="video/3gpp" />
-        <MediaCodec name="OMX.google.h264.decoder" type="video/avc" />
+        <MediaCodec name="OMX.ST.VFM.H264Dec" >
+            <Type name="video/avc" />
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports" />
+        </MediaCodec>
         <MediaCodec name="OMX.google.vpx.decoder" type="video/x-vnd.on2.vp8" />
 
 <!-- Audio decoders -->
