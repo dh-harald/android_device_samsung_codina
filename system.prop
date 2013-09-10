@@ -26,3 +26,12 @@ ste.video.enc.out.buffercnt=5
 wifi.interface=wlan0
 wifi.supplicant_scan_interval=150
 dalvik.vm.dexopt-data-only=1
+ro.config.vc_call_vol_steps=8
+
+# Hardware info
+ro.device.chipset=ST-Ericsson NovaThor U8500 (45nm)
+ro.device.cpu=ARMv7 800MHz Dual-core ARM Cortex-A9
+ro.device.gpu=Mali-400MP Single Core
+ro.device.rear_cam=5 Mpix (2592x1944)
+ro.device.front_cam=VGA (640x480)
+ro.device.screen_res=3,8' 800x480 pixels ( ~246 ppi)
