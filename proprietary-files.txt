@@ -36,7 +36,6 @@ etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_VOIP.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_VT.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_WB.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_EXTRA.txt
-etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_EXTRA_WB.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_VOIP.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_VT.txt
@@ -51,7 +50,6 @@ etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_VT.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_WB.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_LOOPBACK.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_EXTRA.txt
-etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_EXTRA_WB.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_VOIP.txt
 etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_VT.txt
@@ -64,8 +62,6 @@ etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_VOIP.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_VT.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_WB.txt
-etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_EXTRA.txt
-etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_EXTRA_WB.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_VOIP.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_VT.txt
@@ -79,8 +75,6 @@ etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_VOIP.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_VT.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_WB.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_LOOPBACK.txt
-etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA.txt
-etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA_WB.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VOIP.txt
 etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt
@@ -154,19 +148,6 @@ lib/libsecril-client.so
 lib/libsec-ril.so
 lib/libshmnetlnk.so
 lib/libsms_server.so
-lib/libsomxaacd.so
-lib/libsomxaace.so
-lib/libsomxac3d.so
-lib/libsomxamrd.so
-lib/libsomxcmn.so
-lib/libsomxcore.so
-lib/libsomxflacd.so
-lib/libsomxmp3d.so
-lib/libsomxmp43d.so
-lib/libsomxsr263d.so
-lib/libsomxwmad.so
-lib/libsomxwmv7d.so
-lib/libsomxwmv8d.so
 lib/libspeech_proc_customer_plugin.so
 lib/libstagefrighthw.so
 lib/libste_adm.so
